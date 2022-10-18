@@ -1,8 +1,10 @@
-This is a collaboration repository between Vivian and Kadzo
-PRINTF PROJECT
+PRINTF PROJECT	
+
 This is the first group project in the ALX SE done by Vivian and Kadzo
 
-DESCRIPTION
+DESCRIPTION	
+
+
 This is a rather simple replication of the printf function that is supposed to format and print data. This function is part of the standard library and to use it we must specify the header file in the project.
 In the folowing project we are expected to write functions that produce output according to a format
 In this project conversion specifiers have been delegated as follows:
