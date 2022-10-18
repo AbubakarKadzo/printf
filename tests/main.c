@@ -1,4 +1,3 @@
-#include <limits.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -41,4 +40,26 @@ int main(void)
     _printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
     return (0);
+}
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	int a;
+	int number;
+
+
+	number = 19912507;
+
+
+	a = _printf("%i, %d\n", number, number);
+	printf("%d\n", a);
+	a = _printf("% ");
+	printf("%d\n", a);
+	return (0);
 }
